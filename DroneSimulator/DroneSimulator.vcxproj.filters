@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{830bed92-e20f-41e2-bb19-cfce81fe6095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulator/Core">
+      <UniqueIdentifier>{f43fef7e-ae65-4ad6-ad88-5fca2a958a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Firmware">
+      <UniqueIdentifier>{3521243b-8928-49fb-a72b-3a11fe417e27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DroneSimulator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DroneModel.cpp">
+      <Filter>Simulator/Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFirmware.cpp">
+      <Filter>Firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualIMU.cpp">
+      <Filter>Simulator/Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SensorData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorCommands.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DroneState.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationConfig.h">
+      <Filter>Simulator/Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DroneModel.h">
+      <Filter>Simulator/Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IFirmware.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RcCommands.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFirmware.h">
+      <Filter>Firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualIMU.h">
+      <Filter>Simulator/Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

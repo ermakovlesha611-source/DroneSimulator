@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DroneSimulator/DroneSimulator.vcxproj" Id="8a7c4769-1279-4326-875c-0d363863e5b6" />
+</Solution>
